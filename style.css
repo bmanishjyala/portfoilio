@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+    
+    
+}
+
+.basic{
+    width: 100% !important;
+    height: 110vh;
+    padding: 75px 10px;
+    
+}
+
+
+
+#skills{
+    background:  #212529;
+}
+
+#contact{
+   padding: 0px;
+   background:#212529 ;
+}
+
+.accwidright{
+  
+   width: 40% !important;
+   margin: 110px 40px ;
+}
+.accmargin{
+    margin: 10px 0;
+    
+}
