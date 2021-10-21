@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+    
+    
+}
+
+.basic{
+    width: 100% !important;
+    height: 110vh;
+    padding: 75px 10px;
+    
+}
+
+
+
+#skills{
+    background:  #212529;
+}
+
+#contact{
+   padding: 0px;
+   background:#212529 ;
+}
+
+.accwidright{
+  
+   width: 40% !important;
+   margin: 110px 40px ;
+}
+.accmargin{
+    margin: 10px 0;
+    
+}
+.responsivehome{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutresponsive{
+   display: flex;
+ justify-content: center;
+}
+
+.footer{
+    background-color: #212529;
+    border: 2px solid white;
+    color: white;
+}
+/* responsive  */
+
+@media screen and (max-width: 630px){
+    body{
+        width: 100%;
+
+    }
+    .responsivehome{
+        display: flex !important;
+        flex-direction: column!important;
+        
+    }
+    .homeimg{
+        display: none;
+    }
+    .aboutresponsive{
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    .accwidright{
+       width: 300px!important;
+        margin: 10px auto ;
+     }
+     .contactresponsive{
+         display: grid !important;
+         flex-direction: column !important;
+         
+       
+         
+     }
+     .ile{
+         max-width: 80%!important;
+     }
+    
+}
