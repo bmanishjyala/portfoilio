@@ -35,7 +35,42 @@ button{
     margin: 5px 2px;
 }
 
-/* second page  */
+/* stack */
+.fll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    filter: grayscale(100%);
+}
+.icon:hover{
+    filter: none;
+    transition: .2s ease-in-out
+
+}
+.gridSkill{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 100px;
+    
+}
+.self{
+    width: 200px;
+}
+.self:hover{
+    border-color:#FFC107!important ;
+    
+}
+
+
+
+
+
+/* Project page  */
 
 .project{
     width: 100%;
@@ -100,6 +135,16 @@ button{
     flex: 0.4;
     margin-left: 20px;
 }
+/* contact */
+.contactMe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactImg{
+    height: 400px;
+}
 
 
 .footer{
@@ -138,6 +183,14 @@ li:hover{
         padding:20px;
     
     }
+    .gridSkill{
+        column-gap: 60px;
+    }
+    .contactImg{
+        height: 350px;
+    }
+    
+
 }
 @media screen and (max-width:900px){
     #btn_coll{
@@ -170,6 +223,13 @@ li:hover{
     #fontChaiye{
         font-size: 12px;
     }
+    .gridSkill{
+        grid-template-columns: auto auto auto;
+    }
+    .gridSkill{
+        column-gap: 70px;
+        row-gap: 50px;
+    }
 }
 @media screen and (max-width:800px){
     .landing{
@@ -191,6 +251,13 @@ li:hover{
         font-size: 24px;
 
     }
+    #aboutMe{
+        flex-direction: column;
+        align-items: center;
+    }
+    .formula{
+        width: 50%;
+    }
     
 }
 @media screen and (max-width:500px){
@@ -211,5 +278,26 @@ li:hover{
         flex-direction: column;
         align-items: center;
     }
+    .gridSkill{
+        grid-template-columns: auto auto ;
+    }
+    .fll{
+        margin-bottom: 50px;
+    }
+    .gridSkill{
+        column-gap: 30px;
+        row-gap: 40px;
+    }
+    .formula{
+        width: 75%;
+    }
+    .contactImg{
+       width: 250px;
+    }
 }
 
+@media screen and (max-width:300px){
+    .rightSide>img{
+        width: 200px;
+    }
+}
