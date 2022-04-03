@@ -5,6 +5,23 @@
     font-family: 'Maven Pro', sans-serif;
     list-style: none;
 }
+.navLink{
+    text-decoration: none;
+    
+}
+.navLink>h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+  
+}
+.navLink>h1:hover{
+    color:#FFC107;
+    
+}
+
+
+
 /* first page */
 .landing{
     display: flex;
@@ -34,6 +51,13 @@ button{
     border:#eee;
     margin: 5px 2px;
 }
+button:hover{
+    background-color:#5b5b5b!important ;
+    color:#FFC107;
+}
+.threedots:hover{
+    color:#FFC107; 
+}
 
 /* stack */
 .fll{
@@ -49,7 +73,7 @@ button{
 }
 .icon:hover{
     filter: none;
-    transition: .2s ease-in-out
+    transition: .3s ease-in-out
 
 }
 .gridSkill{
@@ -58,13 +82,7 @@ button{
     column-gap: 100px;
     
 }
-.self{
-    width: 200px;
-}
-.self:hover{
-    border-color:#FFC107!important ;
-    
-}
+
 
 
 
@@ -165,7 +183,11 @@ button{
 }
 li:hover{
     color: #30CFD0; 
+    cursor: pointer;
     
+}
+#changeTxt:hover::after{
+  content: " Not Working";
 }
 
 
